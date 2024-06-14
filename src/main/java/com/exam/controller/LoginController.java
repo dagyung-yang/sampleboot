@@ -21,6 +21,7 @@ public class LoginController {
 
 	private Logger logger = LoggerFactory.getLogger(getClass());
 	
+	//로그인 협력자
 	@GetMapping(value={"/login"})
 	public String showLoginPage() {
 		
